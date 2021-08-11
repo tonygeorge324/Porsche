@@ -1,0 +1,191 @@
+<section>
+  <div class="container-fluid">
+    <img src="assets/image/request.jpg" width="100%" />
+  </div>
+</section>
+<section class="m-4">
+  <div class="text-left">
+    <div class="container">
+      <h1>Request Test Drive</h1>
+    </div>
+  </div>
+</section>
+<section class="m-4">
+  <div class="container">
+    <pre class="para">
+Dear Porsche enthusiast,
+
+Thank you for your interest in booking a test drive. You are one step closer to experiencing the drive of your dreams.
+
+Please fill the below form and a Porsche Centre representative will contact you within 24 hrs.
+
+We are looking forward to welcoming you to our Porsche Centre very soon.
+
+Your Porsche Team
+
+Fields marked with * must be completed.
+      </pre
+    >
+  </div>
+  <div class="container">
+    <h1>Personal details</h1>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <form>
+         
+          <div class="form-group">
+            <h5>Salutation*</h5>
+            <select class="custom_form" >
+              <option selected>-Please Choose-</option>
+              <option *ngFor="let type of types">
+                {{ type }}
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <br /><br />
+            <label> First Name * </label>
+            <input type="text" class="name-type" />
+          </div>
+          <div class="form-group">
+            <br />
+            <label> Last Name * </label>
+            <input type="text" class="name-type"  />
+          </div>
+          <div class="form-group">
+            <br /><br />
+            <label>Porsche Centre*</label>
+            <select class="custom_form" >
+              <option selected>-Please Choose-</option>
+              <option *ngFor="let shop of shops">
+                {{ shop }}
+              </option>
+            </select>
+          </div>
+          <div class="contact-data">
+            <br /><br />
+            <h1>Contact data</h1>
+          </div>
+          <div class="form-group">
+            <label>E-mail address*</label>
+            <input type="email" class="name-type" />
+          </div>
+          <div class="form-group">
+            <br />
+
+            <label>Mobile Number*</label>
+            <input type="tel"  class="name-type" />
+          </div>
+          <div class="contact-data">
+            <br />
+            <h1>Additional details</h1>
+          </div>
+          <div class="form-group">
+            <br />
+            <label>Model Range*</label>
+            <select  class="custom_form" >
+              <option selected >-Please Choose-</option>
+              <option *ngFor="let model of models">
+                {{ model }}
+              </option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-6">
+        <div class="container">
+        <h1 class="data_prot">Data Protection Notice:</h1>
+      </div>
+          <div class="container">
+            <p class="data">
+              The Porsche Group* or its agents may use the information you provide together with other information we have about you to contact you, including by mail, phone, SMS, fax or e-mail, with offers or information about Porsche products and services we can provide. We may keep your information for a reasonable period to contact you with offers, invitations or information about our products and services. In order to continue, you must have read the 
+              </p> <a class="policy" href="privacy">Privacy Policy</a>
+              <div class="form_box">
+                <input class="form-check-input" type="checkbox" name="checkbox" ngModel>&nbsp;
+                <label class="form-check-label">I have read and understood the Privacy Policy.</label>
+              </div>
+              <div class="container"><br><br>
+
+                <button type="button" class="btn btn-secondary">Submit</button>
+              </div>
+            </div>
+              
+              
+      </div>
+     
+     
+    </div>
+  </div>
+</section>
+<section class="m-5">&nbsp;
+  <div class="container">
+    <h1 class="more_about">More About</h1>
+
+  
+  
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a
+          class="nav-link"
+          href="#"
+          style="
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+            color: black;
+          "
+          >All Porsche Models  | <span class="sr-only"></span
+        ></a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="#"
+          style="
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+            color: black;
+          "
+          >Motorsport & Events |
+        </a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="#"
+          style="
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+            color: black;
+          "
+          >Service & Accessories |</a
+        >
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="#"
+          
+          
+          style="
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+            color: black;
+          "
+          >About Porsche</a
+        >
+      </li>
+    </ul>
+    
+  </div>
+</section>
+
+
+<router-outlet></router-outlet>

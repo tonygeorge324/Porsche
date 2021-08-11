@@ -1,0 +1,89 @@
+.text-left h1 {
+  position: relative;
+  right: -20px;
+  color: #000000;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 100px;
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: left;
+  word-spacing: 0px;
+}
+.text-left {
+  height: 100px;
+  width: auto;
+  background-color: #eff0f1;
+}
+.para {
+  font-family: "Porsche Next", "Arial Narrow", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none solid rgb(0, 0, 0);
+  word-spacing: 0px;
+
+  background-color: #ffffff;
+  background-position: 0% 0%;
+  color: #000000;
+}
+.details h1 {
+  margin: auto;
+}
+.custom_form {
+  width: 559px;
+  height: 48px;
+  background-color: #35373b;
+  color: white;
+}
+.custom_form option {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 3px 7px 4px 7px;
+  min-height: 16px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  word-spacing: 0px;
+}
+.name-type {
+  width: 559px;
+  height: 48px;
+}
+.data {
+  font-size: 16px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  line-height: 24px;
+  padding: 3px 7px 4px 7px;
+  min-height: 16px;
+  color: black;
+  word-spacing: 0px;
+}
+.policy {
+  position: relative;
+  top: -38px;
+  left: 397px;
+  color: black;
+  font-weight: bold;
+}
+.policy:hover {
+  color: #d5001c;
+}
+.form-check-input {
+  cursor: pointer;
+}
+.more_about {
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+
+  text-decoration: none solid rgb(0, 0, 0);
+  text-align: left;
+  word-spacing: 0px;
+
+  color: #000000;
+}
+.navbar-nav {
+  display: flex;
+
+  flex-direction: row;
+}
